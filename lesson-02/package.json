@@ -1,0 +1,14 @@
+{
+    "name": "lesson-01",
+    "version": "1.0.0",
+    "description": "In this lesson we'll learn how to setup server using express",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "js-express-lessons",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DarpanSanjayRaut/node-js-express-lessons.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DarpanSanjayRaut/node-js-express-lessons/issues"
+    },
+    "homepage": "https://github.com/DarpanSanjayRaut/node-js-express-lessons#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}

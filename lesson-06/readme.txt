@@ -1,0 +1,1 @@
+In this lesson we'll learn how to setup schema for mongodb and use it to save data in database
