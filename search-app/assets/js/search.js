@@ -31,9 +31,23 @@ $(document).ready(()=>{
           }),
           success: function(response) {
               console.log(JSON.stringify(response));
-              $('#list').empty();
+              // $('#list').empty();
               $('#list').append(getTemplate(response.data))
           }
       });
 	}
 })
+
+
+      // $.ajax({
+      //     type: "post",
+      //     url: "", //url
+      //     headers: { 'Content-Type': 'application/json' }, // headers
+      //     data: JSON.stringify(yourData), // data
+      //     success: function(response) {
+      //         console.log(JSON.stringify(response));
+      //     },
+      //     error: function(error) {
+      //         console.log(JSON.stringify(error));
+      //     }
+      // });
